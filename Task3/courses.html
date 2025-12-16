@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses - Shifra</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <div class="logo-circle">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <span class="ms-2 fw-bold">Shifra</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="courses.html">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About us</a>
+                    </li>
+                    <li class="nav-item ms-3">
+                        <i class="fas fa-bell notification-icon"></i>
+                    </li>
+                    <li class="nav-item ms-3">
+                        <img src="https://ui-avatars.com/api/?name=User&background=1a365d&color=fff" alt="Profile" class="profile-img">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+<!-- Hero Section -->
+<section class="courses-hero ">
+  <div class="container">
+
+    <img src="images/home.jpg" alt="Learning" class="hero-img">
+    <div class="hero-content">
+    <h2 class="hero-text">
+      Learn from top experts and take your skills to the<br> next level with our featured courses across<br> design, marketing, cybersecurity, web <br>development, and more!
+    </h2>
+
+    <button class="btn btn-primary-custom mt-3">
+      Search Courses <i class="fas fa-search ms-2"></i>
+    </button>
+    <div class="hero-categories ">
+      <span class="fw-semibold">All categories</span>
+      <div class="categories-list mt-2">
+        <span>● Design</span>
+        <span>● Marketing</span>
+        <span>● Web Development</span>
+        <span>● Cyber Security</span>
+        <span>● Content Writing</span>
+         </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+    <!-- Design Courses -->
+    <section class="category-section py-5">
+        <div class="container">
+            <h2 class="section-title mb-4">Design Courses</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="course-card-detail" onclick="location.href='course-detail.html'" style="cursor:pointer;">
+                        <img src="images/uxui-Fun.jpg" alt="UI_UX " class="course-thumbnail">
+                        <div class="course-content">
+                            <h5>UI_UX Fundamentals</h5>
+                            <div class="d-flex align-items-center justify-content-between mt-2">
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="price">$55</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="course-card-detail">
+                        <img src="images/motion.png" alt="Motion Graphic" class="course-thumbnail">
+                        <div class="course-content">
+                            <h5>Motion Graphic</h5>
+                            <div class="d-flex align-items-center justify-content-between mt-2">
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <span class="price">$29</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="course-card-detail">
+                        <img src="images/design.png" alt="Graphic Design" class="course-thumbnail">
+                        <div class="course-content">
+                            <h5>Graphic Design</h5>
+                            <div class="d-flex align-items-center justify-content-between mt-2">
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <span class="price">$100</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="course-card-detail">
+                        <img src="images/video.png" alt="Motion Graphics" class="course-thumbnail">
+                        <div class="course-content">
+                            <h5>Video montage</h5>
+                            <div class="d-flex align-items-center justify-content-between mt-2">
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="price">$20</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Marketing Courses -->
+    <section class="category-section py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title mb-4">Marketing</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="course-card-detail">
+                        <img src="images/digitalMarkiting.png" alt="Digital Marketing" class="course-thumbnail">
+                        <div class="course-content">
+                            <h5>Digital Marketing </h5>
+                            <div class="d-flex align-items-center justify-content-between mt-2">
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <span class="price">$70</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="course-card-detail">
+                        <img src="images/Social.png" alt="Social Media" class="course-thumbnail">
+                        <div class="course-content">
+                            <h5>Social Media Marketing Pro</h5>
+                            <div class="d-flex align-items-center justify-content-between mt-2">
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="price">$45</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="course-card-detail">
+                        <img src="images/Content.png" alt="Content Marketing" class="course-thumbnail">
+                        <div class="course-content">
+                            <h5>Content Marketing</h5>
+                            <div class="d-flex align-items-center justify-content-between mt-2">
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <span class="price">$45</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="course-card-detail">
+                        <img src="images/Google.png" alt="Google Ads & Analytics" class="course-thumbnail">
+                        <div class="course-content">
+                            <h5>Google Ads & Analytics</h5>
+                            <div class="d-flex align-items-center justify-content-between mt-2">
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <span class="price">$35</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Web Development Courses -->
+    <section class="category-section py-5">
+        <div class="container">
+            <h2 class="section-title mb-4">Web Development</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="course-card-detail">
+                        <img src="images/react.png" alt="React.js Essentials" class="course-thumbnail">
+                        <div class="course-content">
+                            <h5>React.js Essentials</h5>
+                            <div class="d-flex align-items-center justify-content-between mt-2">
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="price">$90</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="course-card-detail">
+                        <img src="images/fullstack.png" alt="Full-Stack Development" class="course-thumbnail">
+                        <div class="course-content">
+                            <h5>Full-Stack Development</h5>
+                            <div class="d-flex align-items-center justify-content-between mt-2">
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <span class="price">$300</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="course-card-detail">
+                        <img src="images/database.png" alt="Database Management" class="course-thumbnail">
+                        <div class="course-content">
+                            <h5>Database Management</h5>
+                            <div class="d-flex align-items-center justify-content-between mt-2">
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="price">$87</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="course-card-detail">
+                        <img src="images/front.png" alt="Front " class="course-thumbnail">
+                        <div class="course-content">
+                            <h5>Front-End Development</h5>
+                            <div class="d-flex align-items-center justify-content-between mt-2">
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="price">$70</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cyber Security Courses -->
+    <section class="category-section py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title mb-4">Cyber Security</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="course-card-detail">
+                        <img src="images/Hacking.png" alt="Ethical Hacking" class="course-thumbnail">
+                        <div class="course-content">
+                            <h5>Ethical Hacking</h5>
+                            <div class="d-flex align-items-center justify-content-between mt-2">
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <span class="price">$55</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="course-card-detail">
+                        <img src="images/network.png" alt="Network Security " class="course-thumbnail">
+                        <div class="course-content">
+                            <h5>Network Security </h5>
+                            <div class="d-flex align-items-center justify-content-between mt-2">
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="price">$29</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="course-card-detail">
+                        <img src="images/forweb.png" alt="Cyber Security" class="course-thumbnail">
+                        <div class="course-content">
+                            <h5>Cyber Security for Web</h5>
+                            <div class="d-flex align-items-center justify-content-between mt-2">
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <span class="price">$100</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="course-card-detail">
+                        <img src="images/security.png" alt="Cyber Security" class="course-thumbnail">
+                        <div class="course-content">
+                            <h5>Cyber Security Basic</h5>
+                            <div class="d-flex align-items-center justify-content-between mt-2">
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <span class="price">$20</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Content Writing Courses -->
+    <section class="category-section py-5">
+        <div class="container">
+            <h2 class="section-title mb-4">Content Writing</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="course-card-detail">
+                        <img src="images/writingbasic.png" alt="Content Writing" class="course-thumbnail">
+                        <div class="course-content">
+                            <h5>Content Writing Basics</h5>
+                            <div class="d-flex align-items-center justify-content-between mt-2">
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <span class="price">$55</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="course-card-detail">
+                        <img src="images/seo.png" alt="SEO Writing" class="course-thumbnail">
+                        <div class="course-content">
+                            <h5>SEO Writing</h5>
+                            <div class="d-flex align-items-center justify-content-between mt-2">
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="price">$29</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="course-card-detail">
+                        <img src="images/blogging.png" alt="Blog & Article Writing " class="course-thumbnail">
+                        <div class="course-content">
+                            <h5>Blog & Article Writing </h5>
+                            <div class="d-flex align-items-center justify-content-between mt-2">
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <span class="price">$100</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="course-card-detail">
+                        <img src="images/copywriting.png" alt="Copywriting Marketing" class="course-thumbnail">
+                        <div class="course-content">
+                            <h5>Copywriting Marketing</h5>
+                            <div class="d-flex align-items-center justify-content-between mt-2">
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <span class="price">$20</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container text-center text-white">
+            <h3 class="mb-4">Ready to start your learning journey?</h3>
+            <button class="btn btn-light btn-cta">Register Now</button>
+            <div class="social-icons mt-4">
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-tiktok"></i></a>
+            </div>
+            <p class="mt-4 small">Privacy Policy | Terms & Conditions<br>© 2025 Shifra Training Center – All Rights Reserved</p>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
